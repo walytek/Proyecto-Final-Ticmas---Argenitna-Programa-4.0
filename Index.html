@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menú con portada - MagtimusPro</title>
+    <title>Mi Curriculum Vitae</title>
 
     
     <link rel="stylesheet" href="css/estilos.css">
+    
     <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
 
 </head>
@@ -23,9 +24,9 @@
                 <nav id="nav">
                     <ul>
                         <li><a href="#" class="select">HOME</a></li>
-                        <li><a href="#cv">MI CV</a></li>
-                        <li><a href="Compartir.html">COMPARTIR</a></li>
-                        <li><a href="articulos.html">ARTÍCULOS</a></li>
+                        <li><a href="Index.html#transicion">MI CV</a></li>
+                        <li><a href="Compartir.html">MUESTRATE</a></li>
+                        <li><a href="Mi Blog.html">MI BLOG</a></li>
                         <li><a href="#">CONTÁCTANOS</a></li>
                     </ul>
                 </nav>
@@ -38,7 +39,7 @@
         </div>
     </header>
 
-    <div class="container__all" id="container_all">
+    <body class="container__all" id="container_all">
 
         <div class="cover">
 
@@ -52,14 +53,14 @@
                     
                 </div>
                 <div class="container__vector">
-                    <img src="C:\Users\walterCoria\OneDrive\Desktop\Ticmas Desafio\images\art-1301872_1280.webp" alt="">
+                        <img src="C:\Users\walterCoria\OneDrive\Desktop\Ticmas Desafio\images\art-1301872_1280.webp" alt="">
                 </div>
             </div>
 
         </div>
 
     <main>
-        <div class="transicion">
+        <div class="transicion" id="transicion">
 
         </div>     
         <div class="contenedor">
@@ -84,7 +85,7 @@
                 <h2 class="frase">En esta seccion ponemos a tu disposicion una serie de alternativas que debes tener en cuenta al momento de diseñar tu curriculum. Explora nuevas tendencias.</h2>
             </div>
             <div class="derecha">
-                <img id="img3"  usemap="#mapa3" src="C:\Users\walterCoria\OneDrive\Desktop\Ticmas Desafio\images\redes sociales (1).jpg" alt="">
+                <img id="img3"  usemap="#mapa3" src="images\redes sociales (1).jpg" alt="">
                     <map name="mapa3">
                         <area shape="default" coords="40,20,270,350" alt="Computer" href="Compartir.html">
                     </map>  
@@ -96,32 +97,73 @@
         </div>
             <div class="transicion">
 
-            </div>    
-
-        <div class="plantillas">
-                <div class="tradicional">
-                    <p id="cv"> hola</p>
+            </div>   
+            <div class="boton" id="botoncv">
+                <button id="boton" onclick="mostrar()"> MOSTRAR <br>CURRICULUM</button>
+            </div> 
+        
+        <div class="contenedorCv" id="cv">
+                <img src="" alt="perfil de usuario" id="foto">
+                <br>
+                <h2>Apellido : <span id="apellido" ></span></h2>
+                <br>
+                <p>Nombre : <span id="nombre" ></span></p>
+                <br>
+                <div class="usuario">
+                    <p>Correo : <span id="correo" ></span></p>
+                    <br>
+                    <p>Telefono : <span id="telefono" ></span></p>
+                    <br>
+                    <p>Fecha de Nacimiento : <span id="date" ></span></p>
+                    <br>
+                    <p>Edad : <span id="dob" ></span></p>
+                    <br>
+                    <p>Género : <span id="gender" ></span></p>
+                    <br>
+                    <p>Ciudad : <span id="ciudad" ></span></p>
+                    <br>
+                    <p>Estado : <span id="estado" ></span></p>
+                    <br>
+                    <p>Pais : <span id="locacion" ></span></p>
+                    <br>
+                    <p>Nacionalidad : <span id="nat" ></span></p>
+                    
                 </div>
         </div>
            
-
-           
-    </main>
-    <footer>
     
-    </footer>
-
-        
-
-        
-                
             
+                
+       
+
+
+
+    
+    </main>
+    
+    <div class="transicion">
+
+    </div>
+    
+    <footer class="pie">
+       <div class="imgpie">
+            <img src="images\ticmas.png" alt="" usemap="#tic">                                                             
+            <map name="tic">
+                <area shape="default" coords="40,20,270,350" alt="Computer" href="https://www.ticmas.com/" target="_blank">
+             </map>   
+       </div>
+       <div class="copyright">
+            <div class="textpie">
+                <p> Walter Horacio Coria - DNI : 18260017 - walterhoraciocoria67</p>
+                
+                
+            </div>
+           
+       </div>
         
-
-
-
-
-<script src="js/script.js"></script>
-<Script src="JS/json.js"></Script>
+    </footer>
+    
+    <Script src="js/appi.js"></Script>
 </body>
+
 </html>
