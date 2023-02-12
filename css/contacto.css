@@ -4,7 +4,7 @@
 body{
   height: 100%; 
   font-family: 'Noto Sans', sans-serif;
-  background-color: hwb(313 91% 2%); 
+  background-color: rgb(186, 144, 235); 
 }
 
 a {
@@ -19,7 +19,8 @@ a {
   width: 460px; 
   height: auto;
   margin: 80px auto;
-  border-radius: 10px;  
+  border-radius: 20px;
+   
   padding-top: 30px;
   padding-bottom: 20px;  
   background-color: #fbfbfb; 
@@ -69,8 +70,8 @@ button{
   margin-bottom: 20px; 
   margin-top: 10px;   
   text-transform: uppercase;
-  background-color: hsl(316, 12%, 62%); 
-  border-color: #03010c; 
+  background-color: hsl(132, 83%, 51%); 
+  border-color: #0c030d; 
   border-style: solid; 
   border-radius: 10px;  
   width: 420px;   
