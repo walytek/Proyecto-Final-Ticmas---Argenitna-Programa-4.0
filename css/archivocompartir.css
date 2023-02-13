@@ -43,6 +43,23 @@ main{
     background-attachment: contain;
     background-size: cover;
 }
+.body2 h1 {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    background-color: transparent;
+    color: rgb(2, 2, 68);
+}
+.body2 p {
+
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: rgb(2, 2, 61);
+
+
+
+}
 .bodymedio{
     background-image: url(../images/linkedin.jpg);
     width: 940px;
@@ -53,4 +70,45 @@ main{
     margin: auto;
     position: relative;
     padding: 20px 20px;
+    
 }
+.bodymedio p {
+    color: rgb(1, 1, 70);
+}
+.bodymedio a {
+
+    background-color: transparent;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(1, 14, 10);
+    margin-left: 350px;
+    margin-bottom: 10px;
+}
+.imgpie img{
+    width: 100%;
+    height: 100%;
+}
+.copyright{
+
+    
+    width: 100%;
+    height: 200px;
+    text-align: center;
+ }
+ .textpie {
+   width: 100%;
+   height: 100%;
+   background-color: hsl(60, 20%, 1%);
+   position: relative;
+   
+ }
+ .textpie p{
+    text-align: right;
+    color: #FEBA0B;
+    position: absolute;
+    bottom:10px;
+    right:100px;
+    width: 100%;
+ }
