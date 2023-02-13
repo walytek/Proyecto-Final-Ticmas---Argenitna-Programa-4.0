@@ -1,0 +1,56 @@
+body{
+    background-color: hsl(0, 10%, 92%);
+}
+header{
+    background-image: url(../images/istockphoto-1329320034-612x612.jpg);
+    color: #230101;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+main{
+    margin-top: 100px;
+}
+.body{
+
+    width: 940px;
+    height: 500px;
+    background-color: aquamarine;
+    margin: auto;
+    position: relative;
+    padding: 20px 20px;
+    
+    
+}
+.body1{
+
+    float:right;
+    background-image: url(../images/compartir.jpg);
+    width: 60%;
+    height: 100%;
+    position:relative;
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+}
+
+.body2{
+    background-color: hsl(212, 28%, 91%);
+    width: 40%;
+    height: 100%;
+    position: relative;
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+}
+.bodymedio{
+    background-image: url(../images/linkedin.jpg);
+    width: 940px;
+    height: 500px;
+    background-position: center;
+    background-attachment: contain;
+    background-size: cover;
+    margin: auto;
+    position: relative;
+    padding: 20px 20px;
+}
